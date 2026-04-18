@@ -56,5 +56,5 @@ if status is-interactive
     source ~/.config/caelestia/user-config.fish 2> /dev/null
 end
 
-fish_add_path /home/axioncs/.spicetify
+fish_add_path /home/meson/.spicetify
 fish_add_path ~/.local/bin
