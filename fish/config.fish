@@ -32,6 +32,18 @@ if status is-interactive
     abbr la 'ls -a'
     abbr lla 'ls -la'
 
+    abbr  pi 'paru -S'
+    abbr  pu 'paru -Syu'
+    abbr  pc 'paru -Sc'
+    abbr  i 'sudo pacman -S'
+    abbr  u 'sudo pacman -Syu'
+    abbr  c 'sudo pacman -Sc'
+    abbr  r 'reboot'
+    abbr  sn 'sudo nano'
+    abbr  s 'sudo'
+    abbr  n 'nano'
+
+
     # Custom colours
     cat ~/.local/state/caelestia/sequences.txt 2> /dev/null
 
@@ -45,3 +57,4 @@ if status is-interactive
 end
 
 fish_add_path /home/axioncs/.spicetify
+fish_add_path ~/.local/bin
